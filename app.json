@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/surepeziti/surepeziti",
+    "pages/surepeisong/surepeisong",
     "pages/peisong/peisong",
     "pages/ziti/ziti",
     "pages/order/order",

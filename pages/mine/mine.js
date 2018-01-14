@@ -4,7 +4,15 @@ Page({
   /**
    * 页面的初始数据
    */
-  tihuomaPop:function(){},
+  tihuomaPop:function(){
+    wx.showModal({
+      title: '注销',
+      content: '你确定要退出吗？',
+      success: function (res) {
+      
+      }
+    })  
+  },
   data: {
   
   },

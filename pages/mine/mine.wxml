@@ -1,9 +1,22 @@
 <!--pages/mine/index.wxml-->
-<view class="container">
-<image class="tihuoma-icon" src="./img/tihuoma-icon.png"></image>
-<view class="tihuoma-text">提货码</view>
-<view class='tihuoma-input-box'>
-<input placeholder-class="tihuoma-phcolor" class='tihuoma-input' placeholder="请输入顾客的提货码"></input>
-<button class="tihuoma-btn" bindtap="tihuomaPop">核销</button>
+<view class="container mine-box">
+  <image class="user-avatar" src="./img/tihuoma-icon.png"></image>
+  <view class="user-shop">你隶属于一品生鲜大学城店</view>
 </view>
+<view class='user-info-box'>
+  <view class="user-name">
+    <image src="./img/user-name.png"></image>
+    <text>秦汪汪</text>
+  </view>
+  <view class="user-identi">
+    <image src="./img/user-identi.png"></image>
+    <text>1234566666</text>
+  </view>
+  <view class='user-tel'>
+    <image src="./img/user-tel.png"></image>
+    <text>13333333333</text>
+  </view>
+</view>
+<view>
+<button class="user-out-btn" bindtap="tihuomaPop">注销</button>
 </view>

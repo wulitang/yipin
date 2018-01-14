@@ -1,0 +1,9 @@
+<!--pages/mine/index.wxml-->
+<view class="container">
+<image class="tihuoma-icon" src="./img/tihuoma-icon.png"></image>
+<view class="tihuoma-text">提货码</view>
+<view class='tihuoma-input-box'>
+<input placeholder-class="tihuoma-phcolor" class='tihuoma-input' placeholder="请输入顾客的提货码"></input>
+<button class="tihuoma-btn" bindtap="tihuomaPop">核销</button>
+</view>
+</view>

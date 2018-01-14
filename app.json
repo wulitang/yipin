@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/order/order",
+    "pages/hexiao/hexiao",
+    "pages/scan/scan"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff6410",
+    "navigationBarTitleText": "宜品生鲜",
+    "navigationBarFontSize":"18rpx",
+    "navigationBarTextStyle":"#fffefe"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+
+      {
+        "selectedIconPath": "common/img/order.png",
+        "iconPath": "common/img/order.png",
+        "pagePath": "pages/order/order",
+        "text": "订单"
+      },
+      {
+        "selectedIconPath": "common/img/hexiao.png",
+        "iconPath": "common/img/hexiao.png",
+        "pagePath": "pages/hexiao/hexiao",
+        "text": "核销"
+      },
+      {
+        "selectedIconPath": "common/img/scan.png",
+        "iconPath": "common/img/scan.png",
+        "pagePath": "pages/scan/scan",
+        "text": "扫一扫"
+      },
+      {
+        "selectedIconPath": "common/img/mine.png",
+        "iconPath": "common/img/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

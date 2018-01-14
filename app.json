@@ -9,7 +9,8 @@
     "pages/logs/logs",
     "pages/mine/mine",
     "pages/hexiao/hexiao",
-    "pages/scan/scan"
+    "pages/scan/scan",
+    "pages/login/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -37,7 +38,7 @@
       {
         "selectedIconPath": "common/img/scan.png",
         "iconPath": "common/img/scan.png",
-        "pagePath": "pages/scan/scan",
+        "pagePath": "pages/login/login",
         "text": "扫一扫"
       },
       {

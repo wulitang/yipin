@@ -1,8 +1,45 @@
-/* pages/mine/index.wxss */
-.tihuoma-icon{
-  height: 422rpx;
-  width:455rpx;
+.user-avatar{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 100%;
+  background: #999;
+  margin-top: 20rpx
 }
-.tihuoma-text{
-padding: 40px 0;
+.mine-box{
+  background: #ee6b1f;
+  color: #fff;
+  font-size: 30rpx;
+}
+.user-shop{
+  line-height: 92rpx;
+  padding-bottom: 30rpx;
+}
+.user-info-box{
+  font-size: 15px;
+  line-height: 80rpx;
+  padding: 0 28rpx;
+  margin-bottom: 180rpx;
+  color: #333;
+  background: #fff;
+}
+.user-name, .user-identi{
+  border-bottom: 1px solid #d9d9d9;
+}
+.user-name image{
+  margin-right:26rpx; 
+  margin-left:8rpx; 
+  width: 30rpx;
+  height: 34rpx;
+}
+.user-identi image{
+  margin-right:24rpx; 
+  margin-left:8rpx; 
+  width: 32rpx;
+  height: 24rpx;
+}
+.user-tel image{
+  margin-right:26rpx; 
+  margin-left:8rpx; 
+  width: 30rpx;
+  height: 32rpx;
 }

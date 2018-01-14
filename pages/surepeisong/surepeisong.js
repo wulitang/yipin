@@ -1,4 +1,4 @@
-// pages/scan/index.js
+// pages/surepeisong/surepeisong.js
 Page({
 
   /**

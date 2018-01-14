@@ -1,11 +1,12 @@
 {
   "pages":[
+    "pages/order/order",
     "pages/index/index",
     "pages/logs/logs",
     "pages/mine/mine",
-    "pages/order/order",
     "pages/hexiao/hexiao",
-    "pages/scan/scan"
+    "pages/scan/scan",
+    "pages/login/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -15,15 +16,12 @@
     "navigationBarTextStyle":"#fffefe"
   },
   "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ff6410",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-
-      {
-        "selectedIconPath": "common/img/order.png",
-        "iconPath": "common/img/order.png",
+        "selectedIconPath": "common/img/order2.png",
+        "iconPath": "common/img/order1.png",
         "pagePath": "pages/order/order",
         "text": "订单"
       },
@@ -36,12 +34,12 @@
       {
         "selectedIconPath": "common/img/scan.png",
         "iconPath": "common/img/scan.png",
-        "pagePath": "pages/scan/scan",
+        "pagePath": "pages/login/login",
         "text": "扫一扫"
       },
       {
         "selectedIconPath": "common/img/mine.png",
-        "iconPath": "common/img/mine.png",
+        "iconPath": "common/img/mine1.png",
         "pagePath": "pages/mine/mine",
         "text": "我的"
       }

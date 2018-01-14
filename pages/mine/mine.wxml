@@ -17,6 +17,5 @@
     <text>13333333333</text>
   </view>
 </view>
-<view>
-<button class="user-out-btn" bindtap="tihuomaPop">注销</button>
-</view>
+
+<button class="submit-btn" bindtap="tihuomaPop">注销</button>

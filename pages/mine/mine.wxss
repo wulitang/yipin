@@ -14,9 +14,6 @@
   line-height: 92rpx;
   padding-bottom: 30rpx;
 }
-.suer-out-text{
-  height: 40px;
-}
 .user-info-box{
   font-size: 15px;
   line-height: 80rpx;
@@ -45,10 +42,4 @@
   margin-left:8rpx; 
   width: 30rpx;
   height: 32rpx;
-}
-.user-out-btn{
-  height: 90rpx;
-  width: 680rpx;
-  background: #ff9329;
-  color: #fff;
 }

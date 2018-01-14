@@ -12,3 +12,11 @@ page{
 .modal-content {
   padding:46rpx auto;
 }
+.submit-btn{
+  height: 100rpx;
+  width: 700rpx;
+  background: #ff9329;
+  color: #fff;
+  font-size: 36rpx;
+  line-height: 100rpx;
+}

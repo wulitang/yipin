@@ -10,20 +10,12 @@ padding: 40rpx 0;
   width: 100%;
 }
 .tihuoma-input{
-height: 50px;
-margin:0 24rpx;
+height: 100rpx;
+margin:0 25rpx 56rpx;
 background: #fff;
-font-size: 12px;
+font-size: 24rpx;
 text-align: center;
 }
 .tihuoma-phcolor{
 color: #999999;  
-}
-.tihuoma-btn{
-  background: #ff6410;
-  margin:56rpx 24rpx 0;
-  height: 50px;
-  color: #fff;
-  line-height: 50px;
-  font-size: 18px;
 }

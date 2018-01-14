@@ -4,17 +4,32 @@ Page({
   /**
    * 页面的初始数据
    */
-  tihuomaPop:function(){
-    wx.showModal({
-      title: '注销',
-      content: '你确定要退出吗？',
-      success: function (res) {
-      
+  loginOutBtn:function(){
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: true
       }
-    })  
+    );
   },
+  closeBtn:function(){
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: false
+      }
+    );
+  },
+  sureBtn: function () {
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: false
+      }
+    );
+    },
   data: {
-  
+    showErrorTips:false
   },
 
   /**

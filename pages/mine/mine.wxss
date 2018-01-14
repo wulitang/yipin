@@ -43,3 +43,53 @@
   width: 30rpx;
   height: 32rpx;
 }
+.login-out-box{
+  position: fixed;
+  top: 0;left: 0;
+  bottom: 0;
+  right: 0;
+}
+.login-out-mask{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.login-out-inner{
+  width: 590rpx;
+  height: 390rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -195rpx;
+  margin-left: -295rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  text-align: center;
+}
+.login-out-title{
+  padding: 60rpx 0 40rpx;
+  font-size: 36rpx;
+
+}
+.login-out-info{
+  font-size: 28rpx;
+  padding-bottom:60rpx; 
+
+}
+.login-out-inner button{
+width: 210rpx;
+height: 80rpx;
+line-height: 80rpx;
+color: #fff;
+font-size: 30rpx;
+display: inline-block;
+}
+.login-out-inner .close-btn{
+background: #c6c6c6;
+margin-right:20rpx; 
+}
+.login-out-inner .sure-btn{
+background: #ff6410;
+margin-left:20rpx; 
+}

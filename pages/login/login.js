@@ -1,16 +1,25 @@
 // pages/scan/index.js
 Page({
   loginLayer:function(){
-    wx.showToast({
-      title: '账号或密码错误',
-      duration: 2000
-    })
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: true
+      }
+    );
+    setTimeout(function(){
+      that.setData(
+        {
+          showErrorTips: false
+        }
+      );
+    },3000)
   },
   /**
    * 页面的初始数据
    */
   data: {
-  
+    showErrorTips:false
   },
 
   /**

@@ -1,14 +1,14 @@
 {
   "pages":[
+    "pages/mine/mine",
+    "pages/login/login",
     "pages/peisong/peisong",
     "pages/ziti/ziti",
     "pages/order/order",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/mine/mine",
     "pages/hexiao/hexiao",
-    "pages/scan/scan",
-    "pages/login/login"
+    "pages/scan/scan"
   ],
   "window":{
     "backgroundTextStyle":"light",

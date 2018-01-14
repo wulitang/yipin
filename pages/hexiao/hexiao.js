@@ -5,17 +5,23 @@ Page({
    * 页面的初始数据
    */
   tihuomaPop: function () {
-    wx.showModal({
-      title: '',
-      showCancel: false,
-      content: '对不起你输入的提货码有误，请重新输入',
-      success: function (res) {
-
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: true
       }
-    })
+    );
+  },
+  closeTihuomaPop:function(){
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: false
+      }
+    );
   },
   data: {
-
+    showErrorTips:false
   },
 
   /**

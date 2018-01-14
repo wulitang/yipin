@@ -1,16 +1,13 @@
 {
   "pages":[
-    "pages/surepeziti/surepeziti",
-    "pages/surepeisong/surepeisong",
-    "pages/peisong/peisong",
-    "pages/ziti/ziti",
-    "pages/order/order",
-    "pages/index/index",
-    "pages/logs/logs",
+    "pages/login/login",
     "pages/mine/mine",
     "pages/hexiao/hexiao",
-    "pages/scan/scan",
-    "pages/login/login"
+    "pages/order/order",
+    "pages/peisong/peisong",
+    "pages/surepeziti/surepeziti",
+    "pages/surepeisong/surepeisong",
+    "pages/ziti/ziti"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,17 +1,17 @@
 <!--pages/order/index.wxml-->
 <view class='order-tab'>
-  <view class='tab-item active' data-index="0">
+  <view class="tab-item {{tabClick==0 ? 'active' : ''}}" id="0" bindtap="tabClick">
     <em>待配送</em>
   </view>
-  <view class='tab-item' data-index="1">
+  <view class="tab-item {{tabClick==1 ? 'active' : ''}}" id="1" bindtap="tabClick">
     <em>正在配送</em>
   </view>
-  <view class='tab-item' data-index="2">
+  <view class="tab-item {{tabClick==2 ? 'active' : ''}}" id="2" bindtap="tabClick">
     <em>已完成</em>
   </view>
 </view>
 <!--待配送-->
-<view class='order-list '>
+<view class="order-list {{tabClick==0 ? 'order-active' : ''}}">
   <view class='order-item'>
     <view class='order-num'>
       订单编号：SDK451313431
@@ -54,7 +54,7 @@
   </view>
 </view>
 <!--正在配送-->
-<view class='order-list'>
+<view class="order-list {{tabClick==1 ? 'order-active' : ''}}">
   <view class='order-item'>
     <view class='order-num'>
       订单编号：SDK451313431
@@ -97,7 +97,7 @@
   </view>
 </view>
 <!--已完成-->
-<view class='order-list done-button order-active'>
+<view class="order-list done-button {{tabClick==2 ? 'order-active' : ''}}">
   <view class='order-item'>
     <view class='order-num'>
       订单编号：SDK451313431

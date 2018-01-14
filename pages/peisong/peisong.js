@@ -1,20 +1,13 @@
-// pages/order/index.js
+// pages/peisong/peisong.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    tabClick:'0',
+  
   },
-    /**
-   * 页面tab切换
-   */
-  tabClick: function (e) {
-    var that =this;
-    this.setData({
-      tabClick: e.currentTarget.id,
-    }) 
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

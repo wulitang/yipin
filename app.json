@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/peisong/peisong",
+    "pages/ziti/ziti",
     "pages/order/order",
     "pages/index/index",
     "pages/logs/logs",

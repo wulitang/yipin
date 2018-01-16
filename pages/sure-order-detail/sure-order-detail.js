@@ -1,13 +1,45 @@
 // pages/ziti/ziti.js
 Page({
-
   /**
    * 页面的初始数据
    */
+
+  closeTimePop: function () {
+    var that = this;
+    that.setData({
+      isShowTimePop: false
+    })
+  },
+  chooseTime: function () {
+    var that = this;
+    that.setData({
+      isShowTimePop: true
+    })
+  },
+  closeChooseBags: function () {
+    var that = this;
+    that.setData({
+      isShowChooseBagsPop: false
+    })
+  },
+  chooseBags: function () {
+    var that = this;
+    that.setData({
+      isShowChooseBagsPop: true
+    })
+  },
   data: {
-  
+    isShowTimePop:false,
+    isShowChooseBagsPop: false,
+    times: ['10:00-11:00', '11:00-12:00', '12:00-13:00', '13:00-14:00', '14:00-15:00', '15:00-16:00'],
   },
 
+  bindChange: function (e) {
+    const val = e.detail.value
+    this.setData({
+      time: this.data.times[val]
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

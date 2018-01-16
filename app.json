@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/sure-order-detail/sure-order-detail",
+    "pages/order-detail/order-detail",
     "pages/peisong/peisong",
     "pages/surepeisong/surepeisong"
   ],

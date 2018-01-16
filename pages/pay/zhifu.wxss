@@ -1,1 +1,2 @@
 /* pages/pay/zhifu.wxss */
+@import "../../common/pay-success/pay-success.wxss";

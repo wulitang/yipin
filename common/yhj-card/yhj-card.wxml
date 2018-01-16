@@ -4,9 +4,9 @@
       ￥<text class="card-price">{{price}}</text>
     </view>
     <view class="yhj-desc-wrap">
-      <view class="yhj-title">单笔满100元生效</view>
-      <view class="yhj-desc">仅小白菜使用</view>
-      <view class="yhj-desc">2017.12.08至12.29</view>
+      <view class="yhj-title text-overflow">单笔满100元生效</view>
+      <view class="yhj-desc text-overflow">仅小白菜使用</view>
+      <view class="yhj-desc text-overflow ">2017.12.08至12.291111</view>
     </view>
   </view>
 </template>

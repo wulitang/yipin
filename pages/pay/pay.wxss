@@ -17,11 +17,12 @@
   width: 584rpx;
 }
 .pay-price{
+  line-height: 56rpx;
   font-size:38rpx;
   color:#e90000;
 }
 .pay-content{
-  line-height: 48rpx;
+  line-height: 40rpx;
   font-size:28rpx;
 }
 

@@ -1,13 +1,7 @@
 {
   "pages":[
-    "pages/login/login",
-    "pages/mine/mine",
-    "pages/hexiao/hexiao",
-    "pages/order/order",
     "pages/peisong/peisong",
-    "pages/surepeziti/surepeziti",
-    "pages/surepeisong/surepeisong",
-    "pages/ziti/ziti"
+    "pages/surepeisong/surepeisong"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -23,25 +17,31 @@
       {
         "selectedIconPath": "common/img/order2.png",
         "iconPath": "common/img/order1.png",
-        "pagePath": "pages/order/order",
-        "text": "订单"
+        "pagePath": "pages/peisong/peisong",
+        "text": "首页"
       },
       {
         "selectedIconPath": "common/img/hexiao.png",
         "iconPath": "common/img/hexiao.png",
-        "pagePath": "pages/hexiao/hexiao",
-        "text": "核销"
+        "pagePath": "pages/peisong/peisong",
+        "text": "分类"
       },
       {
         "selectedIconPath": "common/img/scan.png",
         "iconPath": "common/img/scan.png",
-        "pagePath": "pages/login/login",
-        "text": "扫一扫"
+        "pagePath": "pages/peisong/peisong",
+        "text": "购物车"
       },
       {
         "selectedIconPath": "common/img/mine.png",
         "iconPath": "common/img/mine1.png",
-        "pagePath": "pages/mine/mine",
+        "pagePath": "pages/peisong/peisong",
+        "text": "提货"
+      },
+      {
+        "selectedIconPath": "common/img/mine.png",
+        "iconPath": "common/img/mine1.png",
+        "pagePath": "pages/peisong/peisong",
         "text": "我的"
       }
     ]

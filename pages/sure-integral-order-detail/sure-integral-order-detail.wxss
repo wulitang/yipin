@@ -1,0 +1,173 @@
+/* pages/ziti/ziti.wxss */
+page{
+  background: #f5f5f5;
+}
+.ziti-page{
+  background: #fff;
+  padding: 0 20rpx;
+}
+.map-icon{
+  color:#000;
+  font-size: 30rpx;
+  line-height: 90rpx;
+  background-size:26rpx 26rpx; 
+  background-repeat: no-repeat;
+  padding-left: 40rpx;
+  background-position: left center;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADrUlEQVR4Xu2b/5ENQRDHvxcBIuAiQASIgIsAESACRIAIuAgQASJABIgAEVCfs1u1t/Xe7vR3euZdea//uSo32z397d8950h7Tkd7rr8OABw8oC8CNyTdknRZ0u2Z6I+Sfkn6JOlLr2v1CAGUfiTp3qB4iW4A8U7Sq9ZgtAQACz/dYOkSAKZn8IznkviZTi0AwL1fSHqQfNs3kp4MYZLGOhsA3P2tpGtpNzzP6Lukk8ywyASAGH8diHMXI/IDIKSERBYAWP6zq5H53c0MT8gAAOU/dLD8HCc84U4tCLUAkPBQHhB2QfQLgAAYFtUC8GwodZbwpI8okdzDohoAyPTfLKn5Hx1LokKEqQYA6vL9sMQ2H5y6fYcLALH/s1KX35MERg65VMnvipMLXADo8qj5DjHsELPzOk7rzL8zLDn0UBJeGSIXAAaVuyFJ/w7Tyr5c+e7x0EpH2b8fBq7Qdy4AuD9hEKFItnaqC6WQMAiRA4CT/X8Y8wFZ/WpIGylcDRwAiFWanwiVuP6cnxMKNEWhGcEBgKGHiS9C4YsNe4Qo0GE5DgBOfDpynFIbyTNnBnQu5niAM7k5EyZjMhWqmBwAnBwQvtjQ2UV7jS4h4FgGqwBChMgzeFuEwp7meAAX+hO51XA2Yh3Hy6yQdgGg1ERb1tIFhrtgocWevzWs2skFgHaWXX+UAIH6zvS2iZgu4R3tMuHFGwK8Q+QC4OSB6cXo8sgL4yYHhYn3mm1yOP6tmJloweVrR9iQtRYOO632GTvXA/h2rxciAFAbBlnWh094CBqF13gAPJxqkKk4vKzsnwVAzWYoCwhrE5QFAHycuT1LeTv5ZQKwSy+osn5tFZjX9ej2ptYLqq2fCcAuvKDa+pkAwIt3uuu1Zi38virzT2XUlsEpL3eCK9T53LHIZLnIPxMABLnvBREQrP3/NgHZADDMEAqtZgSe0+hArYfQTSBkA4AMZ51d6gHOer1rCIzCWiTEtMTXKglO+bYYlKx5f821WoTAKNN5P9h23/C+f03xzFZ4SVbGtNjE9XsBUFsV0rP+3FotQ2CUVdMmp7S7Sy7aAwDkO+sz++9+SuM/exZYksvWl3xQOit8HXb89t//lYLQywO4D6URENa6ROKeuaLLf5roCQAglOSD5nHfoxFa8sClVyXrdafU3XvNAiX32dQfNK33vabBEuU5M0+K3ZLeLvqAbaCMSZHfd0t6FwmAsTLws0vGv0g5oDRUmp/rXQabKxQVcAAgitj/dv4vSk6eQbrroUUAAAAASUVORK5CYII=');
+}
+.shop-message{
+  padding: 0 25rpx 25rpx 25rpx;
+  border-bottom: 1px solid #eee;
+}
+.shop-name{
+  color: #333333;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.shop-add{
+  color: #555555;
+  font-size: 30rpx;
+  margin: 20rpx 0;
+}
+.shop-phone{
+    color: #555555;
+  font-size: 30rpx;
+}
+.order-num{
+  border-bottom: 1px solid #eee; 
+  padding: 20rpx 0; 
+}
+.order-num view{
+  font-size: 26rpx;
+  color: #666666;
+  line-height: 50rpx;
+}
+.order-num em{
+  font-size: 24rpx;
+  float: right;
+  color: #fb5f1b;
+  line-height:40rpx;
+  padding: 0rpx 18rpx;
+  border: 1px solid #fb5f1b;
+  border-radius: 20px;
+}
+.li-view{
+  font-size: 30rpx;
+  color: #000000;
+  height: 88rpx;
+  line-height: 88rpx;
+   border-bottom: 1px solid #eee; 
+}
+.li-view .get-order-time{
+color: #666666;
+}
+.li-view  image{
+  width: 12rpx;
+  height: 19rpx;
+  margin-left: 8rpx;
+}
+.li-view em{
+  float: right;
+  font-size: 28rpx;
+  color: #333333;
+}
+.li-view em span{
+  color: #fb5f1b;
+  padding-right: 3rpx;
+}
+i{
+  color:#fb5f1b;
+}
+.order-message{
+  margin-bottom: 25rpx;
+}
+.goods-list{
+  margin:20rpx 0 0;
+  background: #fff;
+  padding: 20rpx 20rpx 0;
+}
+.goods-item{
+  padding: 20rpx 0;
+  border-bottom: 1px solid #eee; 
+}
+.goods-item image{
+  width: 200rpx;
+  height: 200rpx;
+  border: 1px solid #eee;
+  border-radius: 10rpx;
+  display: block;
+  float: left;
+  margin-right: 25rpx;
+}
+.goods-title{
+  font-size: 30rpx;
+  color: #333333;
+  margin-bottom: 25rpx;
+  display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.goods-money{
+  font-size: 30rpx;
+  color: #333;
+  margin-left: 225rpx;
+  height: 60rpx;
+}
+.goods-money view{
+  width: 45%;
+  float: left;
+  display: block;
+}
+.goods-num{
+  font-size: 28rpx;
+  color: #333333;
+}
+.money-list{
+  background: #fff;
+  padding: 20rpx;
+}
+.money-list view{
+  font-size: 28rpx;
+  color: #333333;
+  height: 60rpx;
+}
+.money-list view em{
+  float: right;
+}
+.all-money {
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  padding: 0 20rpx;
+  margin-bottom: 50rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.all-money view em{
+  color:#eb2a2a;
+  font-size: 36rpx;
+  float: right;
+}
+.sure-time{
+  line-height: 100rpx;
+  text-align: right;
+  background: #fff;
+  padding: 0 20rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.submit-order-btn{
+  background: #ffffff;
+  height: 100rpx;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  line-height: 100rpx;
+  background: #ffda44;
+  font-size: 36rpx;
+  text-align: center;
+}

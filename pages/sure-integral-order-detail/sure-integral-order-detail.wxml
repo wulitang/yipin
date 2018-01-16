@@ -1,0 +1,44 @@
+<!--自提订单详情-->
+<view class='ziti-page'>
+  <view class='map-icon'>自提地址</view>
+  <view class='shop-message'>
+    <view class='shop-name'>【宜品生鲜大学城店】</view>
+    <view class='shop-add'>重庆市沙坪坝区新南—国际花园1-2号</view>
+    <view class='shop-phone'>联系电话：0551-6291332</view>
+  </view>
+  <view class='order-message'>
+    <view class='li-view'>
+      提货日期
+      <em class="get-order-time">2017.12.14(明天)</em>
+    </view>
+    <view class='li-view'>
+      提货时间
+      <em><span>*</span>请选择取货时间<image src='./img/select-icon.png'></image></em>
+    </view>
+  </view>
+</view>
+<view class='goods-list'>
+  <view class='goods-item'>
+    <image src='img/lanmei.png'></image>
+    <view class='goods-title'>新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果</view>
+    <view class='goods-money'>
+      <view class='goods-old'>
+        <i>￥15.00</i>元/份
+      </view>
+      <view class='money-new'>
+        折合31.80元/斤
+      </view>
+    </view>
+    <view class='goods-num'>
+      数量：
+      <i>3</i>件
+    </view>
+  </view>
+</view>
+<view class='all-money'>
+  <view>
+    总积分
+    <em>3600积分</em>
+  </view>
+</view>
+<view class='submit-order-btn'>提交订单</view>

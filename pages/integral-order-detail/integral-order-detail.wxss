@@ -10,7 +10,6 @@ page{
   color:#000;
   font-size: 30rpx;
   line-height: 90rpx;
-  border-bottom: 1px solid #eee;
   background-size:26rpx 26rpx; 
   background-repeat: no-repeat;
   padding-left: 40rpx;
@@ -18,7 +17,7 @@ page{
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADrUlEQVR4Xu2b/5ENQRDHvxcBIuAiQASIgIsAESACRIAIuAgQASJABIgAEVCfs1u1t/Xe7vR3euZdea//uSo32z397d8950h7Tkd7rr8OABw8oC8CNyTdknRZ0u2Z6I+Sfkn6JOlLr2v1CAGUfiTp3qB4iW4A8U7Sq9ZgtAQACz/dYOkSAKZn8IznkviZTi0AwL1fSHqQfNs3kp4MYZLGOhsA3P2tpGtpNzzP6Lukk8ywyASAGH8diHMXI/IDIKSERBYAWP6zq5H53c0MT8gAAOU/dLD8HCc84U4tCLUAkPBQHhB2QfQLgAAYFtUC8GwodZbwpI8okdzDohoAyPTfLKn5Hx1LokKEqQYA6vL9sMQ2H5y6fYcLALH/s1KX35MERg65VMnvipMLXADo8qj5DjHsELPzOk7rzL8zLDn0UBJeGSIXAAaVuyFJ/w7Tyr5c+e7x0EpH2b8fBq7Qdy4AuD9hEKFItnaqC6WQMAiRA4CT/X8Y8wFZ/WpIGylcDRwAiFWanwiVuP6cnxMKNEWhGcEBgKGHiS9C4YsNe4Qo0GE5DgBOfDpynFIbyTNnBnQu5niAM7k5EyZjMhWqmBwAnBwQvtjQ2UV7jS4h4FgGqwBChMgzeFuEwp7meAAX+hO51XA2Yh3Hy6yQdgGg1ERb1tIFhrtgocWevzWs2skFgHaWXX+UAIH6zvS2iZgu4R3tMuHFGwK8Q+QC4OSB6cXo8sgL4yYHhYn3mm1yOP6tmJloweVrR9iQtRYOO632GTvXA/h2rxciAFAbBlnWh094CBqF13gAPJxqkKk4vKzsnwVAzWYoCwhrE5QFAHycuT1LeTv5ZQKwSy+osn5tFZjX9ej2ptYLqq2fCcAuvKDa+pkAwIt3uuu1Zi38virzT2XUlsEpL3eCK9T53LHIZLnIPxMABLnvBREQrP3/NgHZADDMEAqtZgSe0+hArYfQTSBkA4AMZ51d6gHOer1rCIzCWiTEtMTXKglO+bYYlKx5f821WoTAKNN5P9h23/C+f03xzFZ4SVbGtNjE9XsBUFsV0rP+3FotQ2CUVdMmp7S7Sy7aAwDkO+sz++9+SuM/exZYksvWl3xQOit8HXb89t//lYLQywO4D6URENa6ROKeuaLLf5roCQAglOSD5nHfoxFa8sClVyXrdafU3XvNAiX32dQfNK33vabBEuU5M0+K3ZLeLvqAbaCMSZHfd0t6FwmAsTLws0vGv0g5oDRUmp/rXQabKxQVcAAgitj/dv4vSk6eQbrroUUAAAAASUVORK5CYII=');
 }
 .shop-message{
-  padding: 25rpx;
+  padding: 0 25rpx 25rpx 25rpx;
   border-bottom: 1px solid #eee;
 }
 .shop-name{
@@ -44,12 +43,24 @@ page{
   color: #666666;
   line-height: 50rpx;
 }
+.order-num em{
+  font-size: 24rpx;
+  float: right;
+  color: #fb5f1b;
+  line-height:40rpx;
+  padding: 0rpx 18rpx;
+  border: 1px solid #fb5f1b;
+  border-radius: 20px;
+}
 .li-view{
   font-size: 30rpx;
   color: #000000;
   height: 88rpx;
   line-height: 88rpx;
    border-bottom: 1px solid #eee; 
+}
+.li-view .get-order-time{
+color: #666666;
 }
 .li-view em{
   float: right;
@@ -63,9 +74,9 @@ i{
   margin-bottom: 25rpx;
 }
 .goods-list{
-  margin:20rpx 0;
+  margin:20rpx 0 0;
   background: #fff;
-  padding: 20rpx;
+  padding: 20rpx 20rpx 0 20rpx;
 }
 .goods-item{
   padding: 20rpx 0;
@@ -119,14 +130,12 @@ i{
 }
 .all-money {
   background: #fff;
-  padding: 20rpx;
-  margin-bottom: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 20rpx;
+  margin-bottom: 86rpx;
   font-size: 30rpx;
   color: #333;
-}
-.all-money view{
-  padding: 20rpx 0 0 0;
-  border-top:1px solid #eee; 
 }
 .all-money view em{
   color:#eb2a2a;
@@ -140,4 +149,12 @@ i{
   padding: 0 20rpx;
   font-size: 30rpx;
   color: #333;
+}
+.submit-order-btn{
+  background: #ffffff;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #ffda44;
+  font-size: 36rpx;
+  text-align: center;
 }

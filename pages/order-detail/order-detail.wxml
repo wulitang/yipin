@@ -9,7 +9,7 @@
   <view class='order-message'>
     <view class='order-num'>
       <view>订单编号：SDK451313431</view>
-      <view>订单生成时间：2017.10.25 12:25</view>
+      <view>订单生成时间：2017.10.25 12:25 <em>待付款</em></view>
     </view>
     <view class='li-view'>
       购物袋
@@ -22,7 +22,7 @@
     </view>
     <view class='li-view'>
       提货日期
-      <em>2017.12.14</em>
+      <em class="get-order-time">2017.12.14(明天)</em>
     </view>
     <view class='li-view'>
       提货时间
@@ -32,7 +32,7 @@
 </view>
 <view class='goods-list'>
   <view class='goods-item'>
-    <image src='img/1.png'></image>
+    <image src='img/lanmei.png'></image>
     <view class='goods-title'>新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果</view>
     <view class='goods-money'>
       <view class='goods-old'>
@@ -48,8 +48,8 @@
     </view>
   </view>
   <view class='goods-item'>
-    <image src='img/1.png'></image>
-    <view class='goods-title'>新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果</view>
+    <image src='img/shiliu.png'></image>
+    <view class='goods-title'>云南蒙自石榴12个225g以上/个 新鲜水果</view>
     <view class='goods-money'>
       <view class='goods-old'>
         <i>￥15.00</i>元/份
@@ -80,4 +80,10 @@
     总费用
     <em>￥200.00</em>
   </view>
+</view>
+<view class='opration-btn'>
+<view class='delete-btn-box'>
+<button class='delete-btn'>删除订单</button>
+</view>
+<button class='pay-btn'>付款</button>
 </view>

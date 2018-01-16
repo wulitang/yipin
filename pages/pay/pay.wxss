@@ -1,0 +1,58 @@
+/* pages/pay/pay.wxss */
+.padding24{
+  padding:24rpx;
+}
+.pay-icon-wrap{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 28rpx;
+}
+.pay-icon{
+  width: 88rpx;
+  height:88rpx;
+}
+.pay-info{
+  display: inline-block;
+  vertical-align: middle;
+  width: 584rpx;
+}
+.pay-price{
+  font-size:38rpx;
+  color:#e90000;
+}
+.pay-content{
+  line-height: 48rpx;
+  font-size:28rpx;
+}
+
+.pay-way-title{
+  font-size:26rpx;
+  line-height: 44rpx;
+}
+
+.pay-way-wrap{
+ background: #fff;
+ padding: 0 24rpx;
+}
+.pay-way{
+  height:120rpx;
+  line-height: 120rpx;
+  font-size:36rpx;
+  border-bottom:1px solid #dfdfdf;
+}
+.pay-way:last-child{
+  border-bottom:none;
+}
+.pay-way-img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 32rpx;
+  width:80rpx;
+  height:80rpx;
+}
+.pay-next-icon{
+  float:right;
+  margin-top: 45rpx;
+  width: 17rpx;
+  height: 30rpx;
+}

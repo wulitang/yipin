@@ -1,0 +1,12 @@
+<template name="pay-success">
+  <view class="pay-success">
+    <icon type="success" size="55" class="pay-success-icon"></icon>
+    <view class="pay-success-title">{{title}}</view>
+    <view class="pay-success-desc-wrap">
+      <view class="pay-success-desc">{{desc}}</view>
+      <view class="pay-success-desc">{{txt}}</view>
+    </view>
+    <button class="pay-success-btn">回到首页</button>
+    <button style="background:#fff;">查看个人订单</button>
+  </view>
+</template>

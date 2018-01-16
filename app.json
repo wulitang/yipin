@@ -1,14 +1,20 @@
 {
   "pages":[
+    "pages/shopcar/shopcar",
+    "pages/pay/pay",
+    "pages/pay/duihuan",
+    "pages/pay/zhifu",
+    "pages/youhuijuan/xuanze",
+    "pages/youhuijuan/lingqu",
+    "pages/youhuijuan/youhuijuan",
     "pages/peisong/peisong",
     "pages/surepeisong/surepeisong"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#ff6410",
+    "navigationBarTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffda44",
     "navigationBarTitleText": "宜品生鲜",
-    "navigationBarFontSize":"18rpx",
-    "navigationBarTextStyle":"#fffefe"
+    "navigationBarFontSize":"18rpx"
   },
   "tabBar": {
     "color": "#666666",

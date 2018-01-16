@@ -1,0 +1,29 @@
+.pay-success{
+  padding:24rpx;
+  text-align: center;
+}
+.pay-success-icon{
+  padding-top:70rpx;
+  padding-bottom:32rpx;
+}
+.pay-success-title{
+  line-height: 60rpx;
+  font-size:36rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+.pay-success-desc-wrap{
+  height: 80rpx;
+}
+.pay-success-desc{
+  line-height: 40rpx;
+  font-size:26rpx;
+  color:#666;
+}
+.pay-success-btn{
+  background: #ffda44;
+  margin: 42rpx 0;
+}
+.pay-success button{
+  font-size:36rpx;
+}

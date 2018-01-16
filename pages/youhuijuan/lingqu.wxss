@@ -1,0 +1,22 @@
+/* pages/youhuijuan/lingqu.wxss */
+.card-list-warp{
+  padding:24rpx;
+}
+.card-item-wrap{
+  position:relative;
+}
+.yhj-card-select{
+  position: absolute;
+  right: 22rpx;
+  bottom:40rpx;
+}
+.yhj-card-select text{
+  display: inline-block;
+  width:130rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  font-size:26rpx;
+  border: 2rpx solid #333;
+  border-radius: 28rpx;
+  text-align: center;
+}

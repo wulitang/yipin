@@ -1,0 +1,2 @@
+/* pages/pay/duihuan.wxss */
+@import "../../common/pay-success/pay-success.wxss";

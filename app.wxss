@@ -1,4 +1,6 @@
 /**app.wxss**/
+@import "common/yhj-card/yhj-card.wxss";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -7,7 +9,7 @@
   box-sizing: border-box;
 } 
 page{
-  background: #f4f8fb;
+  background: #f5f5f5;
 }
 .modal-content {
   padding:46rpx auto;
@@ -22,4 +24,9 @@ page{
 }
 .hide{
   display: none;
+}
+.text-overflow{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }

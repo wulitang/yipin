@@ -1,0 +1,29 @@
+
+
+/* pages/youhuijuan/lingqu.wxss */
+.card-list-warp{
+  padding:24rpx;
+}
+.card-item-wrap{
+  position:relative;
+}
+.yhj-card-select{
+  position: absolute;
+  right: 20rpx;
+  top:73rpx;
+}
+.yhj-card-false{
+  display: block;
+  width:28px;
+  height:28px;
+  border:1px solid #c9c9c9;
+  border-radius: 50%;
+}
+.btn-wrap{
+  padding:24rpx;
+}
+.btn-wrap button{
+  background:#ffda44;
+}
+
+

@@ -1,4 +1,4 @@
-// pages/scan/index.js
+// pages/ziti/ziti.js
 Page({
 
   /**

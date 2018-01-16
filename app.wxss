@@ -12,32 +12,14 @@ page{
 .modal-content {
   padding:46rpx auto;
 }
-/* pages/mine/index.wxss */
-.tihuoma-icon{
-  height: 422rpx;
-  width:455rpx;
-}
-.tihuoma-text{
-padding: 40rpx 0;
-}
-.tihuoma-input-box{
-  width: 100%;
-}
-.tihuoma-input{
-height: 50px;
-margin:0 24rpx;
-background: #fff;
-font-size: 12px;
-text-align: center;
-}
-.tihuoma-phcolor{
-color: #999999;  
-}
-.tihuoma-btn{
-  background: #ff6410;
-  margin:56rpx 24rpx 0;
-  height: 50px;
+.submit-btn{
+  height: 100rpx;
+  width: 700rpx;
+  background: #ff9329;
   color: #fff;
-  line-height: 50px;
-  font-size: 18px;
+  font-size: 36rpx;
+  line-height: 100rpx;
+}
+.hide{
+  display: none;
 }

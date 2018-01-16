@@ -1,20 +1,27 @@
-// pages/order/index.js
+// pages/scan/index.js
 Page({
+  loginLayer:function(){
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: true
+      }
+    );
+    setTimeout(function(){
+      that.setData(
+        {
+          showErrorTips: false
+        }
+      );
+    },3000)
+  },
   /**
    * 页面的初始数据
    */
   data: {
-    tabClick:'0',
+    showErrorTips:false
   },
-    /**
-   * 页面tab切换
-   */
-  tabClick: function (e) {
-    var that =this;
-    this.setData({
-      tabClick: e.currentTarget.id,
-    }) 
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

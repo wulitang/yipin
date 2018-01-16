@@ -4,9 +4,32 @@ Page({
   /**
    * 页面的初始数据
    */
-  tihuomaPop:function(){},
+  loginOutBtn:function(){
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: true
+      }
+    );
+  },
+  closeBtn:function(){
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: false
+      }
+    );
+  },
+  sureBtn: function () {
+    var that = this;
+    that.setData(
+      {
+        showErrorTips: false
+      }
+    );
+    },
   data: {
-  
+    showErrorTips:false
   },
 
   /**

@@ -1,0 +1,5 @@
+<import src="../../common/pay-success/pay-success.wxml" />
+<template 
+is="pay-success" 
+data="{{title:'兑换成功',desc:'积分兑换的商品不支持配送服务，请到相关网点自提。',txt:'给您带来的不便还请谅解。'}}"
+/>

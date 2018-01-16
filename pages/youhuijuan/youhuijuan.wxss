@@ -1,0 +1,29 @@
+/* pages/youhuijuan/youhuijuan.wxss */
+.yhj-tab{
+  font-size:28rpx;
+  height: 88rpt;
+  line-height:88rpx;
+  text-align: center;
+  background:#fff;
+}
+.yhj-tab-item{
+  display: inline-block;
+  width: 50%;
+}
+.yhj-tab-item .tab-active{
+  display: inline-block;
+  border-bottom: 4rpx solid #000;
+}
+.card-list-warp{
+  padding:24rpx;
+}
+.card-item-wrap{
+  position:relative;
+}
+.card-icon{
+  position: absolute;
+  width:130rpx;
+  height:98rpx;
+  right: 19rpx;
+  bottom: 16rpx
+}

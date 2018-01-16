@@ -1,16 +1,22 @@
 {
   "pages":[
     "pages/sure-order-detail/sure-order-detail",
+    "pages/sure-integral-order-detail/sure-integral-order-detail", 
+    "pages/integral-order-detail/integral-order-detail", 
     "pages/order-detail/order-detail",
-    "pages/peisong/peisong",
-    "pages/surepeisong/surepeisong"
+    "pages/shopcar/shopcar",
+    "pages/pay/pay",
+    "pages/pay/duihuan",
+    "pages/pay/zhifu",
+    "pages/youhuijuan/xuanze",
+    "pages/youhuijuan/lingqu",
+    "pages/youhuijuan/youhuijuan"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#ff6410",
+    "navigationBarTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffda44",
     "navigationBarTitleText": "宜品生鲜",
-    "navigationBarFontSize":"18rpx",
-    "navigationBarTextStyle":"#fffefe"
+    "navigationBarFontSize":"18rpx"
   },
   "tabBar": {
     "color": "#666666",
@@ -19,31 +25,31 @@
       {
         "selectedIconPath": "common/img/index-bottom-icon-hover.png",
         "iconPath": "common/img/index-bottom-icon.png",
-        "pagePath": "pages/peisong/peisong",
+        "pagePath": "pages/shopcar/shopcar",
         "text": "首页"
       },
       {
         "selectedIconPath": "common/img/classify-bottom-icon-hover.png",
         "iconPath": "common/img/classify-bottom-icon.png",
-        "pagePath": "pages/peisong/peisong",
+        "pagePath": "pages/shopcar/shopcar",
         "text": "分类"
       },
       {
         "selectedIconPath": "common/img/car-bottom-icon-hover.png",
         "iconPath": "common/img/car-bottom-icon.png",
-        "pagePath": "pages/peisong/peisong",
+        "pagePath": "pages/shopcar/shopcar",
         "text": "购物车"
       },
       {
         "selectedIconPath": "common/img/tihuo-bottom-icon-hover.png",
         "iconPath": "common/img/tihuo-bottom-icon.png",
-        "pagePath": "pages/peisong/peisong",
+        "pagePath": "pages/shopcar/shopcar",
         "text": "提货"
       },
       {
         "selectedIconPath": "common/img/mine-bottom-icon-hover.png",
         "iconPath": "common/img/mine-bottom-icon.png",
-        "pagePath": "pages/peisong/peisong",
+        "pagePath": "pages/shopcar/shopcar",
         "text": "我的"
       }
     ]

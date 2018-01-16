@@ -1,0 +1,35 @@
+<!--pages/youhuijuan/youhuijuan.wxml-->
+<import src="../../common/yhj-card/yhj-card.wxml"/>
+<view class="yhj-tab">
+  <view class="yhj-tab-item" bindtap="changeTab" id="1"><text class="{{tabActive==1?'tab-active':''}}">可用优惠券(2)</text></view>
+  <view class="yhj-tab-item" bindtap="changeTab" id="2"><text class="{{tabActive==2?'tab-active':''}}">历史优惠券</text></view>
+</view>
+
+<view class="card-list-warp" wx:if="{{tabActive==1}}">
+  <view wx:for="{{[1,2,3]}}">
+      <view>
+        <template is="yhj-card" data="{{price:item}}"/>
+      </view>
+  </view>
+</view>
+
+<view class="card-list-warp" wx:if="{{tabActive==2}}">
+  <view wx:for="{{[2,3]}}">
+      <view class="card-item-wrap">
+        <template is="yhj-card" data="{{price:item}}"/>
+
+        <image 
+         src="../../common/img/used-icon.png"
+         class="card-icon" 
+         wx:if="{{item==2}}">
+         </image>
+
+          <image 
+         src="../../common/img/timeout-icon.png"
+         class="card-icon" 
+         wx:if="{{item==3}}">
+         </image>
+         
+      </view>
+  </view>
+</view>

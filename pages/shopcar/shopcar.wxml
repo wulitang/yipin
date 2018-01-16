@@ -1,0 +1,53 @@
+<view class='goods-list'>
+  <view class='goods-item'>
+    <image src='img/lanmei.png'></image>
+    <view class='goods-title'>新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果</view>
+    <view class='goods-money'>
+      <view class='goods-old'>
+        <i>￥15.00</i>元/份
+      </view>
+      <view class='money-new'>
+        折合31.80元/斤
+      </view>
+    </view>
+    <view class='goods-num'>
+      <view class='deal'>
+        <i class='down'>-</i>
+        <i class='ad-num'>2</i>
+        <i class='add'>+</i>
+      </view>
+      <view class='cleared'>
+        <image src='../../common/img/delete-icon.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='goods-item'>
+    <image src='img/lanmei.png'></image>
+    <view class='goods-title'>新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果新鲜蓝莓进口 6个装 单果重30g 新鲜水果</view>
+    <view class='goods-money'>
+      <view class='goods-old'>
+        <i>￥15.00</i>元/份
+      </view>
+      <view class='money-new'>
+        折合31.80元/斤
+      </view>
+    </view>
+    <view class='goods-num'>
+      <view class='deal'>
+        <i class='down'>-</i>
+        <i class='ad-num'>2</i>
+        <i class='add'>+</i>
+      </view>
+      <view class='cleared'>
+        <image src='../../common/img/delete-icon.png'></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='bt-nav'>
+  <view class='nav-left'>
+    <i class='all-price'>总价:</i>
+    <i class='price-num'>￥360.00</i>
+  </view>
+  <view class='nav-right'>去结算</view>
+</view>

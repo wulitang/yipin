@@ -1,0 +1,187 @@
+/* pages/shopcar/shopcar.wxss *//* pages/ziti/ziti.wxss */
+
+.goods-list{
+  background: #fff;
+  padding: 0 20rpx;
+}
+.goods-item{
+  padding: 20rpx 0;
+  border-bottom: 1px solid #eee; 
+}
+.goods-item:last-child{
+  border-bottom: none;
+}
+.goods-item image{
+  width: 200rpx;
+  height: 200rpx;
+  border: 1px solid #eee;
+  border-radius: 10rpx;
+  display: block;
+  float: left;
+  margin-right: 25rpx;
+}
+.goods-title{
+  font-size: 30rpx;
+  color: #333333;
+  margin-bottom: 18rpx;
+  display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.goods-money{
+  font-size: 30rpx;
+  color: #333;
+  margin-left: 225rpx;
+  height: 60rpx;
+}
+.goods-money view{
+  width: 45%;
+  float: left;
+  display: block;
+}
+.goods-old{
+font-size:26rpx;
+}
+.goods-old i{
+  font-size:30rpx;
+  color:#e90000;
+}
+.goods-num{
+  font-size: 28rpx;
+  color: #333333;
+}
+.money-list{
+  background: #fff;
+  padding: 20rpx;
+}
+.money-list view{
+  font-size: 28rpx;
+  color: #333333;
+  height: 60rpx;
+}
+.money-list view em{
+  float: right;
+}
+.all-money {
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  padding: 0 20rpx;
+  margin-bottom: 50rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.all-money view em{
+  color:#eb2a2a;
+  font-size: 36rpx;
+  float: right;
+}
+.sure-time{
+  line-height: 100rpx;
+  text-align: right;
+  background: #fff;
+  padding: 0 20rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.submit-order-btn{
+  background: #ffffff;
+  height: 100rpx;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  line-height: 100rpx;
+  background: #ffda44;
+  font-size: 36rpx;
+  text-align: center;
+}
+
+
+.down,.add{
+  height: 50rpx;
+  width: 50rpx;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1rpx solid  #ffda44;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 40rpx;
+  color: #3c2300
+}
+.add{
+  background-color: #ffda44;
+}
+
+.ad-num{
+  font-size: 36rpx;
+  color: #333;
+  font-weight: normal;
+	font-stretch: normal;
+	line-height: 52rpx;
+	letter-spacing: 0px;
+  margin: 0 30rpx;
+  float: left
+}
+
+.deal{
+  overflow: hidden;
+  float: left
+}
+.goods-num{
+  overflow: hidden
+}
+.cleared{
+  float: right
+}
+.cleared image{
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+}
+
+.bt-nav{
+  overflow: hidden;
+  width: 100%;
+  border: none;
+  position: absolute;
+  bottom: 100rpx;
+}
+
+.nav-left{
+  width: 430rpx;
+	height: 100rpx;
+	background-color: #ffffff;
+	box-shadow: inset 0px -1px 0px 0px 
+		#dfdfdf;
+    float: left;
+    line-height: 100rpx
+}
+
+.bt-nav .nav-right{
+  width: 320rpx;
+	height: 100rpx;
+	background-color: #ffda44;
+  float: right;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  color: #000;
+  text-align: center
+}
+
+.all-price{
+  margin-left: 25rpx ;
+  font-size: 30rpx;
+  color: #333
+}
+
+.price-num{
+  margin-left: 20rpx;
+  font-size: 36rpx;
+  color: #e90000;
+  font-weight: normal
+}

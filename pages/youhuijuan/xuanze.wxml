@@ -1,0 +1,31 @@
+
+
+
+<!--pages/youhuijuan/youhuijuan.wxml-->
+<import src="../../common/yhj-card/yhj-card.wxml"/>
+
+<view class="card-list-warp">
+  <view wx:for="{{[2,3]}}">
+      <view class="card-item-wrap">
+        <template is="yhj-card" data="{{price:item}}"/>
+        <view class="yhj-card-select">
+
+        <icon 
+        wx:if="{{item==2}}"
+        type="success" 
+        size="{{30}}"
+        />
+
+        <text 
+        wx:else 
+        class="yhj-card-false"
+        ></text>
+        </view>  
+      </view>
+  </view>
+</view>
+
+<view class="btn-wrap">
+  <button >确定</button>
+</view>
+

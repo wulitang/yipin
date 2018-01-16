@@ -1,0 +1,5 @@
+<import src="../../common/pay-success/pay-success.wxml" />
+<template 
+is="pay-success" 
+data="{{title:'购买成功',desc:'您可以在我的订单随时查看订单情况',txt:''}}"
+/>

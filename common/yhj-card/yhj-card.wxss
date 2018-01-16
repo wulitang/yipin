@@ -1,0 +1,36 @@
+.yhj-card{
+  height: 206rpx;
+  margin-bottom: 24rpx;
+  background: #fff;
+  border-radius: 4rpx;
+}
+.card-price-wrap{
+  display: inline-block;
+  vertical-align: top;
+  line-height: 206rpx;
+  width:260rpx;
+  height:206rpx;
+  font-size:40rpx;
+  text-align: center;
+  font-weight: 600;
+  background: #ffda44;
+}
+.card-price{
+  margin-left: 20rpx;
+  font-size: 80rpx;
+}
+.yhj-desc-wrap{
+  display: inline-block;
+  line-height:48rpx;
+  padding-left:24rpx;
+  font-size:28rpx;
+}
+.yhj-title{
+ margin-top: 30rpx;
+ margin-bottom: 10rpx;
+}
+.yhj-desc{
+  height: 48rpx;
+  color:#666;
+  font-size:26rpx;
+}

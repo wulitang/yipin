@@ -9,24 +9,33 @@
   <view class='order-message'>
     <view class='order-num'>
       <view>订单编号：SDK451313431</view>
-      <view>订单生成时间：2017.10.25 12:25 <em>待付款</em></view>
+      <view>订单生成时间：2017.10.25 12:25
+        <em>待付款</em>
+      </view>
     </view>
-    <view class='li-view'>
+    <view bindtap="chooseBags" class='li-view'>
       购物袋
-      <em>请选择购物袋<image src='./img/select-icon.png'></image></em>
+      <em>请选择购物袋
+        <image src='./img/select-icon.png'></image>
+      </em>
     </view>
     <view class='li-view'>
       优惠券
       <em>已选
-        <i>5.00</i>元券<image src='./img/select-icon.png'></image></em>
+        <i>5.00</i>元券
+        <image src='./img/select-icon.png'></image>
+      </em>
     </view>
     <view class='li-view'>
       提货日期
       <em class="get-order-time">2017.12.14(明天)</em>
     </view>
-    <view class='li-view'>
+    <view  bindtap="chooseTime" class='li-view'>
       提货时间
-      <em><span>*</span>请选择取货时间<image src='./img/select-icon.png'></image></em>
+      <em>
+        <span>*</span>请选择取货时间
+        <image src='./img/select-icon.png'></image>
+      </em>
     </view>
   </view>
 </view>
@@ -82,3 +91,36 @@
   </view>
 </view>
 <view class='submit-order-btn'>提交订单</view>
+<view class="choose-bags-box {{isShowChooseBagsPop?'':'hide'}}" bindtap='closeChooseBags'>
+  <view class='choose-bags-mask'></view>
+  <view class='choose-bags-inner'>
+    <view>大号购物袋￥0.05
+      <span class='active'>
+        <icon type="success" size="24" />
+      </span>
+    </view>
+    <view>大号购物袋￥0.05
+      <span></span>
+    </view>
+    <view>大号购物袋￥0.05
+      <span></span>
+    </view>
+    <view class="noneed">不需要</view>
+  </view>
+</view>
+
+
+
+<view class="choose-time-box {{isShowTimePop?'':'hide'}}">
+  <view class='choose-time-mask'></view>
+  <view class='choose-time-inner'>
+    <view>
+      <view bindtap='closeTimePop' class="choosed-time">完成</view>
+      <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{times}}" style="line-height: 50px">{{item}}</view>
+    </picker-view-column>
+      </picker-view>
+    </view>
+  </view>
+</view>

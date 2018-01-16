@@ -9,7 +9,9 @@
   <view class='order-message'>
     <view class='order-num'>
       <view>订单编号：SDK451313431</view>
-      <view>订单生成时间：2017.10.25 12:25 <em>待付款</em></view>
+      <view>订单生成时间：2017.10.25 12:25
+        <em>待付款</em>
+      </view>
     </view>
     <view class='li-view'>
       购物袋
@@ -82,8 +84,8 @@
   </view>
 </view>
 <view class='opration-btn'>
-<view class='delete-btn-box'>
-<button class='delete-btn'>删除订单</button>
-</view>
-<button class='pay-btn'>付款</button>
+  <view class='delete-btn-box'>
+    <button class='delete-btn'>删除订单</button>
+  </view>
+  <button class='pay-btn'>付款</button>
 </view>

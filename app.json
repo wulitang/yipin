@@ -1,16 +1,22 @@
 {
   "pages":[
+    "pages/shopcar/shopcar",
+    "pages/youhuijuan/youhuijuan",
+    "pages/youhuijuan/lingqu",
+    "pages/youhuijuan/xuanze",
+    "pages/pay/zhifu",
+    "pages/pay/duihuan",
+    
     "pages/sure-order-detail/sure-order-detail",
     "pages/sure-integral-order-detail/sure-integral-order-detail", 
     "pages/integral-order-detail/integral-order-detail", 
     "pages/order-detail/order-detail",
-    "pages/shopcar/shopcar",
-    "pages/pay/pay",
-    "pages/pay/duihuan",
-    "pages/pay/zhifu",
-    "pages/youhuijuan/xuanze",
-    "pages/youhuijuan/lingqu",
-    "pages/youhuijuan/youhuijuan"
+    
+    "pages/pay/pay"
+    
+    
+    
+    
   ],
   "window":{
     "navigationBarTextStyle":"light",

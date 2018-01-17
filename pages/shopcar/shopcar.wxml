@@ -51,3 +51,13 @@
   </view>
   <view class='nav-right'>去结算</view>
 </view>
+
+<view class="mask">
+  <view class="dialog">
+    <view class="dialog-title">确定要删除该商品吗</view>
+    <view class="dialog-btn-wrap">
+      <view class="btn">取消</view>
+      <view class="btn btn-sure">确定</view>
+    </view>
+  </view>
+</view>

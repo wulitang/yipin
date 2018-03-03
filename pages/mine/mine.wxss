@@ -1,8 +1,0 @@
-/* pages/mine/index.wxss */
-.tihuoma-icon{
-  height: 422rpx;
-  width:455rpx;
-}
-.tihuoma-text{
-padding: 40px 0;
-}

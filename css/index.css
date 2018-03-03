@@ -1,0 +1,453 @@
+.min-top{
+    background-color: #e9464c;
+    padding: .2rem;
+    height: 1.8rem;
+    position: relative;
+}
+.min-top img{
+    width: 1.3rem;
+    float: left;
+    margin-right:.5rem;
+}
+.user-mes{
+    font-size: .28rem;
+    color: #fff;
+    margin-right: .4rem;
+}
+.user-mes li{
+    padding-top: .2rem;
+}
+.min-top i{
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+    background: url("../img/bell.png") no-repeat center;
+    background-size: .3rem;
+}
+.min-top i::after{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    color: #e90000;
+    border: 1px solid #ffdcdc;
+    border-radius: 50%;
+    position: absolute;
+    right: -1px;
+    top: 2px;
+}
+.user-date{
+    padding: .17rem;
+    background: #fff;
+    height: 1.3rem;
+    overflow: hidden;
+}
+.date-item{
+    color: #e90000;
+    font-size: .36rem;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: .13rem;
+    position: relative;
+}
+.date-icon{
+    color: #333333;
+    font-size: .26rem;
+    margin-top: .1rem;
+}
+.date-icon i{
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: .1rem;
+    vertical-align: middle;
+}
+.date-icon span{
+    vertical-align: middle;
+}
+.date-num i{
+    background-image: url('../img/integral.png');
+}
+.date-money i{
+    background-image: url('../img/wallet.png');
+}
+.date-num::after{
+    content: '';
+    display: block;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    background: #eee;
+    right: 0;
+    top: 0;
+}
+.my-order{
+    background: #fff;
+    margin: .25rem 0;
+}
+.my-order .order-title{
+    color: #333;
+    font-size: .3rem;
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 .25rem;
+}
+.my-order .order-title img{
+    display: inline-block;
+    width: .15rem;
+}
+.my-order .order-title a{
+    float: right;
+    color: #999999;
+    font-size: .24rem;
+}
+.order-item{
+    font-size: 0;
+    padding: .3rem 0;
+}
+.my-order li{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+.my-order li a{
+    color: #666666;
+    font-size: .26rem;
+    display: block;
+    position: relative;
+}
+.order-item .item-2 i{
+    position: absolute;
+    right: .22rem;
+    top: -.2rem;
+    border: 2px solid #e90000;
+    color: #e90000;
+    border-radius: 50%;
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    font-size: .14rem;
+    line-height: .33rem;
+}
+.my-order li img{
+    display: block;
+    margin: 0 auto .1rem auto;
+
+}
+.order-item .item-1 img{
+    width: .4rem;
+}
+.order-item .item-2 img{
+    width: .36rem;
+}
+.order-item .item-3 img{
+    width: .43rem;
+}
+.order-item .item-4 img{
+    width: .3rem;
+}
+.order-item .item-5 img{
+    width: .4rem;
+}
+.sept-list{
+    margin-bottom: .25rem;
+    background: #fff;
+    padding: 0 .25rem;
+}
+.sept-list li{
+    border-bottom: 1px solid #dfdfdf;
+    height: 1rem;
+    line-height: 1rem;
+}
+.sept-list li a{
+    font-size: .3rem;
+    color: #333;
+    display: block;
+}
+.sept-list img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .15rem;
+}
+.sept-list li a i{
+    float: right;
+    color: #999;
+}
+.sept-list li a i img{
+    display: inline-block;
+    width: .15rem;
+    margin: 0;
+}
+.sept-1 img{
+    width: .3rem;
+}
+.sept-2 img{
+    width: .4rem;
+}
+.sept-3 img{
+    width: .33rem;
+}
+.sept-4 img{
+    width: .44rem;
+}
+.sept-4,.sept-8{
+    border-bottom: none!important;
+}
+.sept-5 img{
+    width: .4rem;
+}
+.sept-6 img{
+    width: .35rem;
+}
+.sept-7 img{
+    width: .34rem;
+}
+.sept-8 img{
+    width: .36rem;
+}
+.sept-6 span{
+    float: right;
+    color: #333;
+}
+.footer{
+    background: #fff;
+    font-size: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.23);
+    padding: .1rem 0;
+}
+.footer li{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+.footer li a{
+    display: block;
+    font-size: .22rem;
+    color: #666666;
+    position: relative;
+}
+.footer li img{
+    display: block;
+    margin: 0 auto .1rem auto;
+}
+.footer .item-1 img{
+    width: .45rem;
+}
+.footer .item-2 img{
+    width: .42rem;
+}
+.footer .item-3 img{
+    width: .44rem;
+}
+.footer .item-4 img{
+    width: .40rem;
+}
+.footer .item-5 img{
+    width: .38rem;
+}
+.item-tips i{
+    position: absolute;
+    right: .25rem;
+    top: -.1rem;
+    background: #e90000;
+    border-radius: .4rem;
+    display: block;
+    color: #fff;
+    font-size: .14rem;
+    height: .2rem;
+    padding: 0 .1rem;
+    line-height: .21rem;
+}
+/**订单**/
+.go-back{
+    height: 1rem;
+    line-height: 1rem;
+    background: #e9464c;
+    text-align: center;
+    font-size: .36rem;
+    color: #fff;
+    padding: 0 .25rem;
+    overflow: hidden;
+}
+.go-back i{
+    float: left;
+    height: 1rem;
+}
+.go-back i img{
+    width: .29rem;
+    margin-top: .3rem;
+}
+.order-type{
+    height: .8rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    font-size: 0;
+    white-space: nowrap;
+}
+.order-type li{
+    font-size: .3rem;
+    color: #333333;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    line-height: .75rem;
+    width: 1.5rem;
+}
+.order-type .active{
+    color: #e9464c;
+}
+.order-type .active span{
+    display: inline-block;
+    border-bottom: 2px solid #ea454c;
+    padding: 0 .1rem;
+}
+.goods-item{
+    background: #fff;
+    margin-top: .2rem;
+}
+.goods-item .goods-top{
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .28rem;
+    color: #333333;
+    border-bottom: 1px solid #eee;
+    padding: 0 .2rem;
+}
+.goods-item .goods-top span{
+    float: right;
+}
+.goods-item .ending-tui{
+    color: #666;
+}
+.goods-item .paying{
+    color: #ea454c;
+}
+.goods-img {
+    padding: .2rem;
+    border-bottom: 1px solid #eee;
+}
+.goods-img li img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.goods-img ul{
+    display: inline-block; 
+    font-size: 0;
+}
+.goods-img ul li{
+    display: inline-block;
+    margin-right: .2rem;
+}
+.all-num{
+    float: right;
+    font-size: .28rem;
+    color: #333;
+    height: 1.4rem;
+    line-height: 1.4rem;
+}
+.all-num img{
+    width: .15rem;
+}
+.all-money{
+    font-size: .28rem;
+    color: #333333;
+    height: .8rem;
+    line-height: .8rem;
+    padding-left: .2rem;
+}
+.all-money a{
+    float: right;
+    height: .5rem;
+    line-height: .5rem;
+    padding: 0 .1rem;
+    border-radius: 5px;
+    margin-top: .15rem;
+    display: block;
+    width: 1.3rem;
+    text-align: center;
+    margin-right: .2rem;
+}
+.delete{
+    color: #666;
+    border: 1px solid #d7d7d7;
+}
+.pay_buttom{
+    color: #fff;
+    display: block;
+    border: 1px solid #e9464d;
+    background: #e9464d;
+}
+.sales-item{
+    margin-top:.2rem;
+    background: #fff;
+    padding: .2rem .2rem 0 .2rem;
+}
+.sales-num{
+    font-size: .28rem;
+    color: #333333;
+}
+.sales-time{
+    font-size: .24rem;
+    color: #666666;
+}
+.sales-top span{
+    font-size: .28rem;
+    float: right;
+    color: #666;
+    line-height: .8rem;
+}
+.sales-top .ending-tui{
+    color: #fb5f1b;
+}
+.sales-top{
+    height: .8rem;
+    border-bottom: 1px solid #eee;
+}
+.sales-message{
+    line-height: .4rem;
+    float: left;
+}
+.list-item{
+    padding: .2rem 0;
+    height: 2rem;
+}
+.list-item img{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    float: left;
+    margin-right: .2rem;
+}
+.sales-right .sales-title, .sales-pic{
+    font-size: .3rem;
+    color: #333;
+    margin-bottom: .2rem;
+}
+.sales-right{
+    margin-left: 2.2rem;
+}
+.sales-right .sales-pic span i{
+    color: #e90000;
+}
+.sales-right .sales-num i{
+    color: #e90000;
+}
+.sales-right .sales-pic em,.sales-right .sales-num em{
+    float: right;
+}

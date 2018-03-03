@@ -1,15 +1,196 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <title>宜品生鲜</title>
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name=”MobileOptimized” content=”320″>
     <link href="./css/common.css" type="text/css" rel="stylesheet">
     <link href="./css/index.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script>
+        //使用rem
+        !function (n) {
+            var e = n.document,
+                t = e.documentElement,
+                i = 720,
+                d = i / 100,
+                o = "orientationchange" in n ? "orientationchange" : "resize",
+                a = function () {
+                    var n = t.clientWidth || 320; n > 720 && (n = 720);
+                    t.style.fontSize = n / d + "px"
+                };
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+        }(window);
+    </script>
 </head>
-<body>
 
-<script type="text/javascript" src="js/jquery.js"></script>
+<body>
+    <div class="min-top">
+        <div class="user">
+            <img src="./img/user.png">
+            <ul class="user-mes">
+                <li class="userName over">亚比</li>
+                <li class="userId over">账号：124455</li>
+            </ul>
+            <i></i>
+        </div>
+    </div>
+    <ul class="user-date">
+        <li class="date-item date-num">
+            <div class="over">
+                1111111
+            </div>
+            <div class="date-icon">
+                <i></i>
+                <span>积分</span>
+            </div>
+        </li>
+        <li class="date-item date-money">
+            <div class="over">
+                1111111
+            </div>
+            <div class="date-icon">
+                <i></i>
+                <span>账户余额</span>
+            </div>
+        </li>
+    </ul>
+    <div class="my-order">
+        <div class="order-title">
+            我的订单
+            <a href="">
+                全部订单
+                <img src="./img/right.png">
+            </a>
+        </div>
+        <ul class="order-item">
+            <li class="item-1">
+                <a href="">
+                    <img src="./img/wallet1.png"> 待付款
+                </a>
+            </li>
+            <li class="item-2">
+                <a href="">
+                    <i class="over">2</i>
+                    <img src="./img/bag.png"> 待自提
+                </a>
+            </li>
+            <li class="item-3">
+                <a href="">
+                    <img src="./img/car.png"> 待收货
+                </a>
+            </li>
+            <li class="item-4">
+                <a href="">
+                    <img src="./img/paper.png"> 已完成
+                </a>
+            </li>
+            <li class="item-5">
+                <a href="">
+                    <img src="./img/ending.png"> 售后
+                </a>
+            </li>
+        </ul>
+    </div>
+    <ul class="sept-list">
+        <li class="sept-1">
+            <a href="">
+                <img src="./img/locall.png"> 地址管理
+                <i>
+                    <img src="./img/right.png">
+                </i>
+            </a>
+        </li>
+        <li class="sept-2">
+            <a href="">
+                <img src="./img/voucher.png"> 我的优惠券
+                <i>
+                    <img src="./img/right.png">
+                </i>
+            </a>
+        </li>
+        <li class="sept-3">
+            <a href="">
+                <img src="./img/password.png"> 修改密码
+                <i>
+                    <img src="./img/right.png">
+                </i>
+            </a>
+        </li>
+        <li class="sept-4">
+            <a href="">
+                <img src="./img/wechact.png"> 绑定微信
+                <i>
+                    <img src="./img/right.png">
+                </i>
+            </a>
+        </li>
+
+    </ul>
+    <ul class="sept-list" style="margin-bottom: 1.5rem;">
+        <li class="sept-5">
+            <a href="">
+                <img src="./img/clean.png"> 清除缓存
+                <i>
+                    25.0M
+                    <img src="./img/right.png">
+                </i>
+            </a>
+        </li>
+        <li class="sept-6">
+            <a href="">
+                <img src="./img/cloud.png"> 版本更新
+                <span>检查更新</span>
+            </a>
+        </li>
+        <li class="sept-7">
+            <a href="">
+                <img src="./img/warn.png"> 关于我们
+                <i>
+                    <img src="./img/right.png">
+                </i>
+            </a>
+        </li>
+        <li class="sept-8">
+            <a href="">
+                <img src="./img/service.png"> 联系客服
+                <i>
+                    <img src="./img/right.png">
+                </i>
+            </a>
+        </li>
+    </ul>
+    <ul class="footer">
+        <li class="item-1">
+            <a href="">
+                <img src="./img/home.png"> 首页
+            </a>
+        </li>
+        <li class="item-2">
+            <a href="">
+                <img src="./img/kind.png"> 分类
+            </a>
+        </li>
+        <li class="item-3 item-tips">
+            <a href="">
+                <i class="over">2</i>
+                <img src="./img/shopping.png"> 购物车
+            </a>
+        </li>
+        <li class="item-4 item-tips">
+            <a href="">
+                <i class="over">2</i>
+                <img src="./img/basket.png"> 提货
+            </a>
+        </li>
+        <li class="item-5">
+            <a href="">
+                <img src="./img/mine.png"> 我的
+            </a>
+        </li>
+    </ul>
 </body>
+
 </html>

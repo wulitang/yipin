@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>宜品生鲜</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name=”MobileOptimized” content=”320″>
+    <link href="./css/common.css" type="text/css" rel="stylesheet">
+    <link href="./css/index.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script>
+        //使用rem
+        !function (n) {
+            var e = n.document,
+                t = e.documentElement,
+                i = 720,
+                d = i / 100,
+                o = "orientationchange" in n ? "orientationchange" : "resize",
+                a = function () {
+                    var n = t.clientWidth || 320; n > 720 && (n = 720);
+                    t.style.fontSize = n / d + "px"
+                };
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+        }(window);
+    </script>
+</head>
+
+<body>
+    <div class="go-back">
+        <i>
+            <img src="./img/left.png">
+        </i>
+        我的订单
+    </div>
+    <ul class="order-type">
+        <li>
+            <span>全部</span>
+        </li>
+        <li>
+            <span>待付款</span>
+        </li>
+        <li>
+            <span>待送货</span>
+        </li>
+        <li>
+            <span>待自提</span>
+        </li>
+        <li class="active">
+            <span>售后</span>
+        </li>
+        <li class="active">
+                <span>已完成</span>
+            </li>
+    </ul>
+    <div class="sales-item">
+            <div class="sales-top">
+                <div class="sales-message">
+                    <div class="sales-num">
+                        订单编号：SDK451313431
+                    </div>
+                    <div class="sales-time">
+                        申请时间：2017-12-12 11:40
+                    </div>
+                </div>
+                <span class="ending-tui">处理中</span>
+            </div>
+            <ul class="sales-list">
+                <li class="list-item">
+                    <img src="./img/grape.png">
+                    <div class="sales-right">
+                        <div class="sales-title over-two">
+                            新鲜蓝莓进口 6个装 单果重30g 新鲜水果
+                        </div>
+                        <div class="sales-pic">
+                            <span><i>￥15.00</i>元/份</span>
+                            <em>折合31.80元/斤</em>
+                        </div>
+                        <div class="sales-num">
+                            <span>数量：<i>3</i>件</span>
+                            <em>小计：<i>45.00</i>元</em>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item">
+                        <img src="./img/grape.png">
+                        <div class="sales-right">
+                            <div class="sales-title over-two">
+                                新鲜蓝莓进口 6个装 单果重30g 新鲜水果
+                            </div>
+                            <div class="sales-pic">
+                                <span><i>￥15.00</i>元/份</span>
+                                <em>折合31.80元/斤</em>
+                            </div>
+                            <div class="sales-num">
+                                <span>数量：<i>3</i>件</span>
+                                <em>小计：<i>45.00</i>元</em>
+                            </div>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+        <div class="sales-item">
+                <div class="sales-top">
+                    <div class="sales-message">
+                        <div class="sales-num">
+                            订单编号：SDK451313431
+                        </div>
+                        <div class="sales-time">
+                            申请时间：2017-12-12 11:40
+                        </div>
+                    </div>
+                    <span>已退货</span>
+                </div>
+                <ul class="sales-list">
+                    <li class="list-item">
+                        <img src="./img/grape.png">
+                        <div class="sales-right">
+                            <div class="sales-title over-two">
+                                新鲜蓝莓进口 6个装 单果重30g 新鲜水果
+                            </div>
+                            <div class="sales-pic">
+                                <span><i>￥15.00</i>元/份</span>
+                                <em>折合31.80元/斤</em>
+                            </div>
+                            <div class="sales-num">
+                                <span>数量：<i>3</i>件</span>
+                                <em>小计：<i>45.00</i>元</em>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="sales-item">
+                    <div class="sales-top">
+                        <div class="sales-message">
+                            <div class="sales-num">
+                                订单编号：SDK451313431
+                            </div>
+                            <div class="sales-time">
+                                申请时间：2017-12-12 11:40
+                            </div>
+                        </div>
+                        <span>申请未通过</span>
+                    </div>
+                    <ul class="sales-list">
+                        <li class="list-item">
+                            <img src="./img/grape.png">
+                            <div class="sales-right">
+                                <div class="sales-title over-two">
+                                    新鲜蓝莓进口 6个装 单果重30g 新鲜水果
+                                </div>
+                                <div class="sales-pic">
+                                    <span><i>￥15.00</i>元/份</span>
+                                    <em>折合31.80元/斤</em>
+                                </div>
+                                <div class="sales-num">
+                                    <span>数量：<i>3</i>件</span>
+                                    <em>小计：<i>45.00</i>元</em>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+</body>
+
+</html>

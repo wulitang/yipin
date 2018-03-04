@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>宜品生鲜</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name=”MobileOptimized” content=”320″>
+    <link href="./css/common.css" type="text/css" rel="stylesheet">
+    <link href="./css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/weui.min.css">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/weui.min.js"></script>
+    <script>
+        //使用rem
+        !function (n) {
+            var e = n.document,
+                t = e.documentElement,
+                i = 720,
+                d = i / 100,
+                o = "orientationchange" in n ? "orientationchange" : "resize",
+                a = function () {
+                    var n = t.clientWidth || 320; n > 720 && (n = 720);
+                    t.style.fontSize = n / d + "px"
+                };
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+        }(window);
+    </script>
+</head>
+
+<body>
+    <div class="go-back">
+        <i>
+            <img src="./img/left.png">
+        </i>
+        个人资料
+    </div>
+    <div class="change-img">
+        <img src="./img/user.png">
+    </div>
+    <div class="change-list">
+        <div class="change-item">
+            <span>昵称</span>
+            <input type="text" value="Anna">
+        </div>
+        <div class="change-item" id="choose-bir">
+            <span>生日</span>
+            <em>请选择
+                <img src="./img/right_gry.png"> </em>
+        </div>
+        <div class="change-item" id="choose-sex">
+            <span>性别</span>
+            <em>请选择
+                <img src="./img/right_gry.png"> </em>
+        </div>
+    </div>
+    <ul class="change-from">
+        <li style="margin: 0;">从相册选择照片</li>
+        <li>取消</li>
+    </ul>
+    <script type="text/javascript" class="picker js_show">
+        $('#choose-sex').on('click', function () {
+            weui.picker([{
+                label: '男',
+                value: 0
+            }, {
+                label: '女',
+                value: 1
+            }], {
+                onChange: function (result) {
+                    console.log(result);
+                },
+                onConfirm: function (result) {
+                    console.log(result);
+                }
+            });
+        });
+        $('#choose-bir').on('click', function () {
+            weui.datePicker({
+                start: 1990,
+                end: new Date().getFullYear(),
+                onChange: function (result) {
+                    console.log(result);
+                },
+                onConfirm: function (result) {
+                    console.log(result);
+                }
+            });
+        });</script>
+</body>
+
+</html>

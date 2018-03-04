@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>宜品生鲜</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name=”MobileOptimized” content=”320″>
+    <link href="./css/common.css" type="text/css" rel="stylesheet">
+    <link href="./css/index.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script>
+        //使用rem
+        !function (n) {
+            var e = n.document,
+                t = e.documentElement,
+                i = 720,
+                d = i / 100,
+                o = "orientationchange" in n ? "orientationchange" : "resize",
+                a = function () {
+                    var n = t.clientWidth || 320; n > 720 && (n = 720);
+                    t.style.fontSize = n / d + "px"
+                };
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+        }(window);
+    </script>
+</head>
+
+<body>
+    <div class="go-back">
+        <i>
+            <img src="./img/left.png">
+        </i>
+        联系我们
+    </div>
+    <div class="content-us">
+        <div class="content-item" style="border-bottom: 1px solid #eee;">
+            <img src="./img/er.png">
+            <p>售后服务微信群</p>
+        </div>
+        <div class="content-item">
+            <div class="content-phone">客服电话 <span>023-8985478</span></div>
+            <div>工作时间 <span>09:00-18:00</span></div>
+        </div>
+    </div>
+</body>
+
+</html>

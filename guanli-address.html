@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>宜品生鲜</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name=”MobileOptimized” content=”320″>
+    <link href="./css/common.css" type="text/css" rel="stylesheet">
+    <link href="./css/index.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script>
+        //使用rem
+        !function (n) {
+            var e = n.document,
+                t = e.documentElement,
+                i = 720,
+                d = i / 100,
+                o = "orientationchange" in n ? "orientationchange" : "resize",
+                a = function () {
+                    var n = t.clientWidth || 320; n > 720 && (n = 720);
+                    t.style.fontSize = n / d + "px"
+                };
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+        }(window);
+    </script>
+</head>
+
+<body>
+    <div class="go-back">
+        <i>
+            <img src="./img/left.png">
+        </i>
+        管理收货地址
+    </div>
+    <!--没有地址提示-->
+    <p class="no-address" style="display:none;">
+        您还没有添加收货地址哦，请添加
+    </p>
+    <ul class=" guan-address">
+        <li class="active">
+            <div class="address-name">
+                    <span>秦汪汪</span>
+                   <em> 18623286666</em>
+            </div>
+            <div class="choose-detail">
+                重庆市南岸区-阳光100国际新城-B6-17-1
+            </div>
+            <div class="address-button">
+                <div class="one-address">默认收货地址</div>
+                <div class="two-address">
+                    <a class="" href="javascript:;">编辑</a>
+                </div>
+            </div>
+        </li>
+        <li>
+                <div class="address-name">
+                        <span>秦汪汪</span>
+                       <em> 18623286666</em>
+                </div>
+                <div class="choose-detail">
+                    重庆市南岸区-阳光100国际新城-B6-17-1
+                </div>
+            </li>
+    </ul>
+    <a href="javascript::" class="sure-write">新增收货地址</a>
+</body>
+
+</html>

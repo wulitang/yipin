@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>宜品生鲜</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name=”MobileOptimized” content=”320″>
+    <link href="./css/common.css" type="text/css" rel="stylesheet">
+    <link href="./css/index.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script>
+        //使用rem
+        !function (n) {
+            var e = n.document,
+                t = e.documentElement,
+                i = 720,
+                d = i / 100,
+                o = "orientationchange" in n ? "orientationchange" : "resize",
+                a = function () {
+                    var n = t.clientWidth || 320; n > 720 && (n = 720);
+                    t.style.fontSize = n / d + "px"
+                };
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+        }(window);
+    </script>
+</head>
+
+<body>
+    <div class="go-back">
+        <i>
+            <img src="./img/left.png">
+        </i>
+        订单详情待付款
+    </div>
+    <div class="order-address">
+        <div class="address-detail">
+            <div class="choose-type">
+                <img src="./img/black_map.png">自提地址
+            </div>
+            <ul class="detail-address">
+                <li class="over">【宜品生鲜大学城店】</li>
+                <li class="over">重庆市沙坪坝区新南—国际花园1-2号</li>
+                <li class="over">联系电话：0551-6291332</li>
+            </ul>
+            <div class="sales-top address-step">
+                <div class="sales-message">
+                    <div class="sales-num">
+                        订单编号：SDK451313431
+                    </div>
+                    <div class="sales-time">
+                        申请时间：2017-12-12 11:40
+                    </div>
+                </div>
+                <span class="ready-pay">待付款</span>
+            </div>
+            <ul class="list_message">
+                <li>
+                    <span>购物袋</span>
+                    <em>大号购物袋</em>
+                </li>
+                <li>
+                    <span>优惠券</span>
+                    <em>已选
+                        <i>5.00</i>元券</em>
+                </li>
+                <li>
+                    <span>提货日期</span>
+                    <p>2017.12.14（明天）</p>
+                </li>
+                <li style="border:none;">
+                    <span>提货时间</span>
+                    <em>15:00-16:00</em>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <ul class="sales-list order-sales">
+        <li class="list-item">
+            <img src="./img/grape.png">
+            <div class="sales-right">
+                <div class="sales-title over-two">
+                    新鲜蓝莓进口 6个装 单果重30g 新鲜水果
+                </div>
+                <div class="sales-pic">
+                    <span>
+                        <i>￥15.00</i>元/份</span>
+                    <em>折合31.80元/斤</em>
+                </div>
+                <div class="sales-num">
+                    <span>数量：
+                        <i>3</i>件</span>
+                </div>
+            </div>
+        </li>
+        <li class="list-item">
+            <img src="./img/grape.png">
+            <div class="sales-right">
+                <div class="sales-title over-two">
+                    新鲜蓝莓进口 6个装 单果重30g 新鲜水果
+                </div>
+                <div class="sales-pic">
+                    <span>
+                        <i>￥15.00</i>元/份</span>
+                    <em>折合31.80元/斤</em>
+                </div>
+                <div class="sales-num">
+                    <span>数量：
+                        <i>3</i>件</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="pay-order">
+        <ul>
+            <li>
+                商品金额
+                <span>￥230.00</span>
+            </li>
+            <li>
+                优惠券
+                <span>-5.00</span>
+            </li>
+            <li>
+                购物袋
+                <span>+2</span>
+            </li>
+        </ul>
+        <div class="order-money">
+                总费用
+                <span> ￥220.00</span>
+        </div>
+    </div>
+    <div class="pay-button">
+        <a class="order-pay" href="javascript:;">付款</a>
+        <a class="order-delete" href="javascript:;">删除订单</a>
+    </div>
+    <div class="window">
+            <div class="window-min">
+                <div class="window-message">
+                        你确定要删除订单吗？
+                </div>
+                <div class="window-button">
+                    <a class="cancel" href="javascript:;">取消</a>
+                    <a class="sure" href="javascript:;">确定</a>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

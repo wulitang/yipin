@@ -1016,6 +1016,7 @@
 .shenqing-saled{
     padding: .24rem;
     background: #fff;
+    margin-bottom: 1.5rem;
 }
 .shenqing-saled .sale-id{
     height: .88rem;
@@ -1036,4 +1037,74 @@
     border-radius: 5px;
     margin-bottom: .2rem;
 
+}
+.shenqing-saled .ping-title{
+    font-size: .3rem;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: .2rem;
+}
+.ping-list li{
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+.ping-list li img{
+    width: 100%;
+    height: 100%;
+}
+.ping-list li i{
+    display: block;
+    background: url('../img/zoox.png') no-repeat center center;
+    width: .4rem;
+    height: .4rem;
+    position: absolute;
+    right: -.1rem;
+    top: -.1rem;
+    background-size: 100%;
+}
+.ping-list .add-button {
+    border: 1px solid #eee;
+    background: url('../img/add.png') no-repeat center center;
+    background-size: 70%;
+}
+.sure-add{
+    position: fixed;
+    bottom: 0;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: .36rem;
+    color: #fff;
+    background: #e9464c;
+    display: block;
+    width: 100%;
+}
+.shenqing-mesg{
+    margin: .6rem 0!important;
+    padding: 0 .5rem;
+    line-height: .4rem;
+}
+.shenqing-mesg p{
+    font-size: .24rem;
+    color: #666;
+}
+.shenqing-mesg span{
+    font-size: .3rem;
+    color: #333333;
+    margin-bottom: .2rem;
+    display: block;
+}
+.shenqing-button .know-sure{
+    display: block;
+    margin: auto;
+    width: 4.57rem;
+    height: .84rem;
+    line-height: .84rem;
+    text-align: center;
+    color: #fff;
+    font-size: .3rem;
+    background: #e9464c;
 }
